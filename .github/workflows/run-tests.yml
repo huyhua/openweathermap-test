@@ -3,11 +3,11 @@ on: push
 
 jobs:
   run-chrome:
-    runs-on: cypress/browsers:node14.17.0-chrome91-ff89
+    runs-on: ubuntu-latest
+    container: cypress/browsers:node14.17.0-chrome91-ff89
     steps:
     - uses: actions/checkout@v2
     
     - run: |
         npm i
         npm run cy:run:chrome
-    
