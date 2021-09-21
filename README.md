@@ -1,6 +1,6 @@
 # Open weather map cypress tests
 
-![Tests](https://github.com/github/docs/actions/workflows/run-tests.yml/badge.svg)
+![Tests](https://github.com/huyhua/openweathermap-test/actions/workflows/run-tests.yml/badge.svg)
 
 This project is written using Cypress. For the best coding experience and correct style check please use `Visual Studio Code` to review.
 
