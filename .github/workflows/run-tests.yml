@@ -5,9 +5,12 @@ jobs:
   run-chrome:
     runs-on: ubuntu-latest
     container: cypress/browsers:node14.17.0-chrome91-ff89
+    strategy:
+      matrix:
+        browser: [chrome, firefox]
     steps:
     - uses: actions/checkout@v2
     
     - run: |
         npm i
-        npm run cy:run:chrome
+        npm run cy:run:${{ matrix.browser }}
