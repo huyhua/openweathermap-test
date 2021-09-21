@@ -1,0 +1,6 @@
+{
+    "baseUrl": "https://openweathermap.org",
+    "defaultCommandTimeout": 10000,
+    "video": false,
+    "waitForAnimations": true
+}

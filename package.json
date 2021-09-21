@@ -1,0 +1,37 @@
+{
+  "name": "openweather-test",
+  "version": "1.0.0",
+  "description": "Cypress tests for openweathermap.org",
+  "main": "index.js",
+  "scripts": {
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huyhua/openweather-test.git"
+  },
+  "author": "huyhua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huyhua/openweather-test/issues"
+  },
+  "homepage": "https://github.com/huyhua/openweather-test#readme",
+  "dependencies": {
+    "cypress": "^8.4.1",
+    "dayjs": "^1.10.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-config-promise": "^2.0.2",
+    "eslint-config-standard": "^16.0.1",
+    "eslint-plugin-chai-friendly": "^0.6.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.1.0",
+    "prettier": "^2.4.1"
+  }
+}

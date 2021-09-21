@@ -1,0 +1,6 @@
+printWidth: 80
+jsxBracketSameLine: true
+jsxSingleQuote: true
+singleQuote: true
+semi: false
+endOfLine: auto
