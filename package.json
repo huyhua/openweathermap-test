@@ -22,6 +22,7 @@
     "dayjs": "^1.10.7"
   },
   "devDependencies": {
+    "cypress-multi-reporters": "^1.5.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^7.0.0",
     "eslint-config-promise": "^2.0.2",
@@ -32,6 +33,7 @@
     "eslint-plugin-prettier": "^3.3.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.1.0",
+    "mocha-junit-reporter": "^2.0.0",
     "prettier": "^2.4.1"
   }
 }

@@ -7,3 +7,6 @@ cypress/downloads/*
 
 # ignore personal environment settings
 cypress.env.json
+
+# test reports
+junit/*.xml

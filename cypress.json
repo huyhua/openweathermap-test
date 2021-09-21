@@ -2,5 +2,9 @@
     "baseUrl": "https://openweathermap.org",
     "defaultCommandTimeout": 10000,
     "video": false,
-    "waitForAnimations": true
+    "waitForAnimations": true,
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+      "configFile": ".cypress-reporters.json"
+    }
 }
