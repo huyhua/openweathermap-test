@@ -8,6 +8,8 @@ The project is written in javascript using page object pattern. While cypress di
 
 Repo is run using git workflows on every commit.
 
+A list of manual test cases can be found (here)[Manual Test Cases.md]
+
 ## Prerequisites
 - Node is installed [Guide](https://nodejs.org/en/download/package-manager/)
 - All packages installed using `npm i`
