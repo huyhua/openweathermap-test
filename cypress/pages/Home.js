@@ -1,5 +1,9 @@
 class HomePage {
-  get searchContainer() {
+  get headerSearchField() {
+    return cy.get('#desktop-menu input:visible')
+  }
+
+  get bodySearchField() {
     return cy.get('.search-container input')
   }
 
@@ -12,21 +16,22 @@ class HomePage {
   }
 
   visit() {
-    cy.intercept('**/data/2.5/find*').as('cityData')
-
     cy.visit('/')
     cy.get('.owm-loader').should('not.exist')
     return this
   }
 
+  searchFromHeader(location) {
+    this.headerSearchField.click().type(location).type('{enter}')
+  }
+
   search(location) {
-    this.searchContainer.click().type(location)
+    this.bodySearchField.click().type(location)
     this.searchButton.click()
     return this
   }
 
   selectDropdown(index) {
-    cy.wait('@cityData')
     this.dropDown.children().eq(index).click()
   }
 }

@@ -1,5 +1,7 @@
 {
     "baseUrl": "https://openweathermap.org",
+    "viewportWidth": 1280,
+    "viewportHeight": 1028,
     "defaultCommandTimeout": 10000,
     "video": false,
     "waitForAnimations": true,
