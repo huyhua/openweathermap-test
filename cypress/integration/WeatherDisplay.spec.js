@@ -11,6 +11,11 @@ describe('Open Weather Map', () => {
   })
 
   it('from body', () => {
+    // Stub find requests to increase test speed
+    cy.intercept(/\/data\/2.5\/find\?q=Hanoi.*/, {
+      fixture: 'find.json',
+    })
+
     homePage.search('Hanoi').selectDropdown(0)
 
     resultPage.city.should('have.text', 'Ha Noi, VN')
