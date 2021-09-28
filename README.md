@@ -4,7 +4,8 @@
 
 Cypress test for open weather map.
 
-A list of manual test cases can be found [here](test-cases.md)
+Test approach document [here](test-approach.md)
+Manual test cases and defects [here](manual-testcases.xlsx)
 
 ## Prerequisites
 - Node is installed [Guide](https://nodejs.org/en/download/package-manager/)
