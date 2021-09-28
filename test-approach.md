@@ -47,25 +47,26 @@ We assume that the feature backend is written using java.
 <td align="left">UFT, Selenium WebDriver, Postman</td>
 </tr>
 <tr class="odd">
+<td align="left">Non functional testing</td>
+<td align="left">Verify non functional tests:
+<br/>
+<ul>
+<li>Security testing</li>
+<li>Performance and Availability testing</li>
+</td>
+<td align="left">OSWASP ZAP, Wapiti, LoadRunner, JMeter</td>
+</tr>
+<tr class="even">
 <td align="left">System testing</td>
 <td align="left">Testing the whole system with end to end flow</td>
 <td align="left">Selenium, QTP, TestComplete</td>
 </tr>
-<tr class="even">
-<td align="left">Security testing</td>
-<td align="left">Verify secure access, transmission and password/ session security</td>
-<td align="left">OSWASP ZAP, Wapiti</td>
-</tr>
 <tr class="odd">
-<td align="left">Performance and Availability testing</td>
-<td align="left">Load, scalability and endurance tests</td>
-<td align="left">LoadRunner, JMeter</td>
-<tr class="even">
 <td align="left">Regression testing</td>
 <td align="left">Testing all the prior features and re-testing previously closed bugs</td>
 <td align="left">QTP, Selenium WebDriver</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">Acceptance testing</td>
 <td align="left">Testing based on acceptance criteria to enable the customer to determine whether or not to accept the system</td>
 <td align="left">Selenium , Cucumber</td>
