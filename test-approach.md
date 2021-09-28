@@ -42,7 +42,7 @@ We assume that the feature backend is written using java.
 <li>100% of the highest risks covered</li>
 <li>Operational scenarios tested</li>
 <li>Operational manuals tested</li>
-<li>All failures are reported</li>
+<li>All fail, pass, known issues are reported</li>
 </ul></td>
 <td align="left">UFT, Selenium WebDriver, Postman</td>
 </tr>
