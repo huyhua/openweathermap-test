@@ -2,9 +2,9 @@ import dayjs from 'dayjs'
 import { homePage } from '../pages/Home'
 import { resultPage } from '../pages/Result'
 import { findPage } from '../pages/Find'
-import { cities } from '../fixtures/test_data/city.json'
 
 const today = dayjs().format('MMM D')
+const cities = require('../fixtures/test_data/city.json')
 
 describe('Verify city temperature', () => {
   beforeEach(() => {
