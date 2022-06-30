@@ -14,8 +14,8 @@ Manual test cases and defects [here](manual-testcases.xlsx)
 
 ## Commands
 - `npx cypress open` to launch the GUI
-- `npm run cy:browser:chrome` to run test in chrome headlessly
-- `npm run cy:browser:firefox` to run test in firefox headlessly
+- `npm run cy:run:chrome` to run test in chrome headlessly
+- `npm run cy:run:firefox` to run test in firefox headlessly
 
 ## Project Structure
 
