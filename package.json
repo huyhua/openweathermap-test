@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cy:run:chrome": "cypress run --browser chrome",
-    "cy:run:firefox": "cypress run --browser firefox",
+    "cy:run:firefox": "cypress run --browser usr/bin/firefox",
     "cy:run:edge": "cypress run --browser edge",
     "cy:run:electron": "cypress run"
   },
