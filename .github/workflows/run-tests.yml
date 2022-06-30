@@ -7,7 +7,7 @@ jobs:
     container: cypress/browsers:node14.19.0-chrome100-ff99-edge
     strategy:
       matrix:
-        browser: [chrome, electron, firefox, edge]
+        browser: [chrome, electron, edge]
     steps:
       - uses: actions/checkout@v2
 
